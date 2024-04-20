@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color-scheme: light dark;
+  }
+  
+  .grid-two-cols{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    margin-top: 3rem;
+  }
+  
+  .hero-content{
+    margin: 1rem;
+    margin-left: 4rem;
+    padding: 2rem;
+  }
+  
+  h1{
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  p{
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.06rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .hero-image{
+    margin-right: 3rem;
+  }
+  
+  .hero-btns{
+    display: flex;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  button{
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background-color:rgb(5, 53, 53)
+  }
+  
+  button:hover{
+    background-color: transparent;
+    border: solid teal 0.1rem;
+  }
+
+  
+label, input{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+input{
+    padding: 0.7rem;
+    border: 0.1rem solid white;
+
+}
+
+label{
+    margin-top: 2rem;
+    padding: 0.1rem;
+    font-weight: bold;
+}
+
+input:hover{
+    background: rgb(39, 38, 38);
+}
+
+.registration{
+  margin: 3rem;
+}
+
+form{
+  margin-top: 3rem;
+}
+
+.btnr{
+  margin-top: 2rem;
+  margin-left: 10rem;
+}
